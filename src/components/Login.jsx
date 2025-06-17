@@ -8,7 +8,7 @@ const Login = () => {
   const submitHandler = (data) =>{
      reset();
      navigate("/content")
-     toast.success("loginned successfully")
+     toast.success("logged in successfully")
   }
   return (
     <form onSubmit={handleSubmit(submitHandler)} className='absolute p-5 top-0 left-2/5 w-[375px] h-screen bg-[#F7F8F9] opacity-100 '>
